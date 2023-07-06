@@ -28,16 +28,18 @@
     height: 100%;
     margin: 10px 60px;
 }
+h1{
+    color: brown;
+    font-weight:bolder;
+}
 .logo{
     height: 80px;
     width: 200px;
     padding-top: 5px;
-   margin-left: 45%;
-   margin-bottom: 8px;
+    margin-left: 45%;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
-    border-radius: 45%;
-    box-shadow: 0px 0px 15px white;
 }
 .navbar{
     height: 45px;
@@ -145,13 +147,11 @@ input{color:white}
     justify-content: center;
     font-size: 14px;
     box-shadow: 0px 0px 15px rgba(230, 34, 34, 0.758);
-    /* position: relative; */
     cursor: pointer;
 }
 .plus-18{
     height: 11.5px;
     margin-right: 3px;
-    /* position: absolute; */
     cursor: pointer;
 }
 .join-tele{
@@ -265,20 +265,6 @@ input{color:white}
     width: 300px;
     margin: 20px 13px;
 }
-.download{
-    height: 40px;
-    width: 170px;
-    color: white;
-    background-color: rgb(58, 156, 231);
-    border-radius: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    opacity:0;
-    position:absolute;
-    
-}
 .calender{
     height: 12px;
     margin-right: 2px;
@@ -288,10 +274,14 @@ input{color:white}
     width: 100%;
     box-shadow: 0px 2px 5px white;
     position: relative;
-    transition: 3s;
+    transition: 800ms;
 }
 .brahmastra:hover{
-    scale: -1;
+    height: 350px;
+    width: 95%;
+    scale: 1.1;
+    border-radius: 20%;
+    
 }
 .date{
     height: 20px;
@@ -308,7 +298,7 @@ input{color:white}
     transition: 500ms;
 }
 .para:hover{
-    color: blue;
+    color: rgb(101, 101, 246);
     cursor: pointer;
 }
 .page-box{
